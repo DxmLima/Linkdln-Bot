@@ -13,8 +13,8 @@ time.sleep(2)
 username = driver.find_element(By.ID, "session_key")
 password = driver.find_element(By.ID, "session_password")
 
-username.send_keys('dxmcorp42@gmail.com')
-password.send_keys('aranha=2013')
+username.send_keys('YOUR EMAIL LINKDLN')
+password.send_keys('YOUR LINKDLN PASSWORD')
 time.sleep(2)
 
 submit = driver.find_element(By.CLASS_NAME, "sign-in-form__submit-button").click()
